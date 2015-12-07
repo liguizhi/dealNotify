@@ -1,5 +1,5 @@
 # dealNotify
-subscribe notification for firstp2p deal
+subscribe notification for p2p deal
 ## feature
 - commit email for subscribe
 - check which type of deal to subscribe
