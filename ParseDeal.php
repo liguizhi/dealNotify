@@ -11,7 +11,7 @@ class ParseDeal {
      * @return void
      */
     public static function getContents($url='') {
-        $contents = self::getHtml('http://www.firstp2p.com', '', true);
+        $contents = self::getHtml('http://www.test.com', '', true);
         file_put_contents('content.txt',$contents);
         $reg = "/<div class=\"p2p_product p5\">(.*)<div class=\"p2p_product p5\">/";
         $reg = "/<div class=\"p2p_product p5\">/";
